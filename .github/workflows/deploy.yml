@@ -1,0 +1,25 @@
+name: Deploy ke GitHub Pages
+
+on:
+  push:
+    branches: ["main"] # Robot bekerja setiap kamu update kode
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install        # Robot menginstal bahan-bahan
+      - run: npm run build      # Robot merakit .jsx jadi file biasa
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'        # Jika pakai Vite, ganti ke './dist'
+      - uses: actions/deploy-pages@v4
