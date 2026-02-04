@@ -134,7 +134,7 @@ function HomeSection({ setActiveTab }) {
           </span>
         </h1>
         <p className="text-slate-400 text-lg max-w-lg mx-auto md:mx-0 whiteSpace-pre-line">
-          SYAHRUL FAJRI MUH SOFWAN
+          SYAHRUL FAJRI MUH SOFWAN <br />
           Seorang pelajar biasa yang memiliki beberapa skil dan project dalam bidang desain UI/UX
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
