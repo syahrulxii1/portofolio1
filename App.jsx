@@ -134,7 +134,8 @@ function HomeSection({ setActiveTab }) {
           </span>
         </h1>
         <p className="text-slate-400 text-lg max-w-lg mx-auto md:mx-0">
-          PELAJAR SMAN 1 SUBANG
+          SYAHRUL FAJRI MUH SOFWAN
+          
             Seorang pelajar biasa yang memiliki beberapa skil dan project dalam bidang desain UI/UX
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
@@ -160,7 +161,7 @@ function HomeSection({ setActiveTab }) {
           <div className="absolute inset-2 bg-slate-950 rounded-full z-10 flex items-center justify-center overflow-hidden border border-slate-800">
              {/* Ganti src ini dengan foto profil Anda */}
             <img 
-              src="pp.jpg" 
+              src={fotoProfil}
               alt="Profile" 
               className="w-full h-full object-cover opacity-90 hover:scale-110 transition-transform duration-500"
             />
