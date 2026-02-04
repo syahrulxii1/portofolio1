@@ -225,7 +225,7 @@ function AboutSection() {
 
              <div className="flex gap-4 pt-4">
                <SocialLink icon={Instagram} href="https://www.instagram.com/syahrulfajri73?igsh=ajZ5bHZnamFhbGF6" />
-               <SocialLink icon={Facebook} href="#" />
+               <SocialLink icon={Facebook} href="https://www.facebook.com/share/1CCHhng7Bn/" />
                <SocialLink icon={Twitter} href="#" />
              </div>
            </div>
