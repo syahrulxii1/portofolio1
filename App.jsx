@@ -160,7 +160,7 @@ function HomeSection({ setActiveTab }) {
           <div className="absolute inset-2 bg-slate-950 rounded-full z-10 flex items-center justify-center overflow-hidden border border-slate-800">
              {/* Ganti src ini dengan foto profil Anda */}
             <img 
-              src="./pp.jpg" 
+              src="pp.jpg" 
               alt="Profile" 
               className="w-full h-full object-cover opacity-90 hover:scale-110 transition-transform duration-500"
             />
