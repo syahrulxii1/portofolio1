@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { 
   Home, User, Briefcase, Mail, Send, MessageSquare, 
   X, Github, Linkedin, ExternalLink, Code, Smartphone, 
-  Cpu, Globe, ChevronRight
+  Cpu, Globe, ChevronRight, Instagram, Facebook, Twitter,
 } from 'lucide-react';
 import { 
   ResponsiveContainer, RadarChart, PolarGrid, 
@@ -224,9 +224,9 @@ function AboutSection() {
              </div>
 
              <div className="flex gap-4 pt-4">
-               <SocialLink icon={Github} href="#" />
-               <SocialLink icon={Linkedin} href="#" />
-               <SocialLink icon={Globe} href="#" />
+               <SocialLink icon={Instagram} href="https://www.instagram.com/syahrulfajri73?igsh=ajZ5bHZnamFhbGF6" />
+               <SocialLink icon={Facebook} href="#" />
+               <SocialLink icon={Twitter} href="#" />
              </div>
            </div>
         </div>
